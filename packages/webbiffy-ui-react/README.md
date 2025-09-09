@@ -1,8 +1,10 @@
 # Webbiffy UI - React
 
-> 📋 **Part of [Webbiffy Design Kit](../../README.md)** - A comprehensive design system for Webbiffy applications
+> 📋 **Part of [Webbiffy Design Kit](../../README.md)** - A comprehensive design system for any react application
 
 A modern, accessible, and customizable UI kit built with React, TypeScript, Tailwind CSS, and based on shadcn/ui components. Perfect for building consistent user interfaces across Next.js and React applications.
+
+**🌐 [Live Demo](https://webbiffy-ui-react-storybook.vercel.app/)** - Explore all components interactively
 
 ## ✨ Features
 
@@ -84,6 +86,7 @@ pnpm test:ui
 ```
 
 ## 📖 Storybook
+
 
 View all components in Storybook:
 
