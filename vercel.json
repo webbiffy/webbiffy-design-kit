@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pnpm run build-all-storybooks",
+  "outputDirectory": "packages/webbiffy-ui-react/storybook-static",
+  "installCommand": "pnpm install",
+  "framework": "vite"
+}

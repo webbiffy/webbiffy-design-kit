@@ -1,0 +1,31 @@
+{
+  "name": "webbiffy-design-kit",
+  "version": "1.0.0",
+  "description": "webbiffy UI Design Kit",
+  "private": true,
+  "packageManager": "pnpm@10.12.4",
+  "scripts": {
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "build": "pnpm run --filter='./packages/*' build",
+    "build-all-storybooks": "pnpm run --filter='./packages/*' build-storybook",
+    "release": "changeset publish",
+    "sync-changelogs": "pnpm run --filter='./packages/*' sync-changelog",
+    "ui-react:install": "pnpm install --filter @webbiffy.design/ui-react",
+    "ui-react:dev": "pnpm --filter @webbiffy.design/ui-react dev",
+    "ui-react:build": "pnpm --filter @webbiffy.design/ui-react build",
+    "ui-react:story": "pnpm --filter @webbiffy.design/ui-react storybook",
+    "ui-react:story-build": "pnpm --filter @webbiffy.design/ui-react build-storybook",
+    "ui-react:story-build-with-tests": "pnpm run ui-react:test && pnpm run ui-react:lint && pnpm run ui-react:type-check && pnpm run ui-react:story-build",
+    "ui-react:build-watch": "pnpm --filter @webbiffy.design/ui-react build:watch",
+    "ui-react:test": "pnpm run --filter @webbiffy.design/ui-react test run",
+    "ui-react:lint": "pnpm run --filter @webbiffy.design/ui-react lint",
+    "ui-react:type-check": "pnpm run --filter @webbiffy.design/ui-react type-check"
+  },
+  "author": "Webbiffy",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.29.5"
+  }
+}
