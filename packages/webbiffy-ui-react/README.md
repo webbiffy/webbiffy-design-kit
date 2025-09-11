@@ -133,7 +133,7 @@ module.exports = {
 
 ## 🗂 Workspace Navigation
 
-This package is part of the KMC Design Kit workspace:
+This package is part of the Webbiffy Design Kit workspace:
 
 - **[🏠 Main Repository](../../README.md)** - Workspace setup and overview
 - **[📦 This Package](./README.md)** - You are here
