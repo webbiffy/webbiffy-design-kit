@@ -113,7 +113,7 @@ const ChangelogViewer = () => {
           Changelog
         </h1>
         <p className="wui-text-muted-foreground">
-          Version history and release notes for the KMC UI React library.
+          Version history and release notes for the Webbiffy UI React library.
         </p>
         {summary && (
           <div className="wui-mt-4 wui-flex wui-flex-wrap wui-gap-4 wui-text-sm">
@@ -269,7 +269,7 @@ const ChangelogViewer = () => {
         <p className="wui-text-sm wui-text-muted-foreground">
           For the complete changelog, visit our{" "}
           <a
-            href="https://github.com/kmcwebdev/wui-design-kit/blob/main/packages/wui-ui-react/CHANGELOG.md"
+            href="https://github.com/webbiffy/webbiffy-design-kit/blob/main/packages/webbiffy-ui-react/CHANGELOG.md"
             className="wui-text-informative hover:wui-text-informative/80 wui-transition-colors"
             target="_blank"
             rel="noopener noreferrer"
@@ -289,7 +289,7 @@ const meta: Meta<typeof ChangelogViewer> = {
     docs: {
       description: {
         component:
-          "View all changes made to the KMC UI React library organized by version.",
+          "View all changes made to the Webbiffy UI React library organized by version.",
       },
     },
   },
