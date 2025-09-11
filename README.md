@@ -47,7 +47,7 @@ pnpm ui-react:install
 
 ```bash
 # Installation
-pnpm ui-react:install      # Install dependencies for @kmc.solutions/ui-react package only
+pnpm ui-react:install      # Install dependencies for @webbiffy.design/ui-react package only
 
 # Development
 pnpm ui-react:dev          # Start UI React development server
